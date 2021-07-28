@@ -1,0 +1,16 @@
+.places__link{
+  font-style: normal;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 320px){
+  .places__link{
+    margin: 0 0 12px 16px;
+  }
+}
+
+

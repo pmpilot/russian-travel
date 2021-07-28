@@ -1,0 +1,27 @@
+.lead{
+  position: relative;
+  margin: 56px auto 92px auto;
+  align-items: center;
+  max-width: 984px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: minmax(320px, 984px);
+}
+
+@media screen and (max-width: 1024px){
+  .lead{
+    max-width: 90.63%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lead{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .lead{
+    margin: 48px auto 64px auto;
+  }
+}
