@@ -2,7 +2,7 @@
     min-width: 320px;
     max-width: 1280px;
     margin: 0 auto;
-    font-family: 'inter';
+    font-family: 'Inter', sans-serif;
     background-color: #2a2c2f;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -10,4 +10,23 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
+}
+
+@font-face{
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+
+}
+
+@font-face{
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+}
+
+@font-face{
+    src: url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
 }
