@@ -2,3 +2,9 @@
   margin: 0;
   display: inline-block;
 }
+
+@media screen and (max-width: 320px){
+  .header__logo{
+    max-width: 142px;
+  }
+}

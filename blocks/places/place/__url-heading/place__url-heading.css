@@ -1,4 +1,4 @@
-.places__url-heading{
+.place__url-heading{
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
@@ -6,10 +6,11 @@
   letter-spacing: 2px;
   color: #aaaaaa;
   margin: 0 0 12px 0;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 320px){
-  .places__url-heading{
+  .place__url-heading{
     margin: 0 0 12px 16px;
   }
 }
