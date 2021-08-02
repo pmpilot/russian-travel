@@ -2,11 +2,10 @@
     padding: 0;
 }
 
-@media screen and (max-width: 320px){
-    .place__paragraphs{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-    }
+@media screen and (max-width: 650px){
+  .place__paragraphs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
   }
-  
+}

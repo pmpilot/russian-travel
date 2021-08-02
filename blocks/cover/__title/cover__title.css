@@ -3,10 +3,22 @@
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.2;
+  line-height: 1.06;
   text-align: center;
   color: #ffffff;
   margin: auto auto 32px auto;
+}
+
+@media screen and (max-width: 640px){
+  .cover__title{
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .cover__title{
+    font-size: 44px;
+  }
 }
 
 @media screen and (max-width: 320px){
